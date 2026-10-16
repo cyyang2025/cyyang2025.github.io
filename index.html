@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ching-Yu Yang | Personal Portfolio & Resume</title>
+  <meta name="description" content="Resume and portfolio of Ching-Yu Yang - Graduate CS Student specializing in EDA, VLSI CAD, and Machine Learning.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Header -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">CY.Yang</a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="btn-icon" aria-label="Toggle Dark Mode" title="Toggle theme">
+          <span class="icon">🌙</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero / Intro Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <div class="badge-status">
+          <span class="status-dot"></span> Open to EDA / Systems Software Opportunities
+        </div>
+        <h1 class="hero-title">Ching-Yu Yang</h1>
+        <p class="hero-subtitle">MS in Computer Science & Information Engineering @ NTUST</p>
+        <p class="hero-bio">
+          Specializing in <strong>Electronic Design Automation (EDA)</strong>, VLSI Physical Design Optimization, and Machine Learning acceleration. Combining rigorous algorithmic problem-solving in C++ with an interdisciplinary background in clinical operations and data integrity.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:m11415069@mail.ntust.edu.tw" class="contact-item">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <span>m11415069@mail.ntust.edu.tw</span>
+          </a>
+          <a href="https://github.com/cyyang2025" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            <span>github.com/cyyang2025</span>
+          </a>
+          <span class="contact-item">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Taipei, Taiwan</span>
+          </span>
+          <span class="contact-item">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <span>0975-295-800</span>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <div class="section-header">
+        <h2 class="section-title">Education</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="cards-grid">
+        <!-- NTUST -->
+        <div class="card education-card">
+          <div class="card-header">
+            <div>
+              <h3 class="card-title">National Taiwan University of Science and Technology</h3>
+              <p class="card-subtitle">Master of Science in Computer Science and Information Engineering</p>
+            </div>
+            <div class="card-date">Sept 2025 – Expected June 2027</div>
+          </div>
+          <div class="gpa-pill">GPA: <strong>4.10</strong> / 4.30</div>
+          
+          <div class="edu-detail">
+            <p><strong>Research Focus:</strong> Electronic Design Automation (EDA), ML-based Acceleration for Physical Design Optimization</p>
+            <div class="coursework">
+              <strong>Core Coursework:</strong>
+              <div class="tags-container">
+                <span class="tag">CAD for VLSI (A+)</span>
+                <span class="tag">Data Mining (A+)</span>
+                <span class="tag">Digital Image Processing (A-)</span>
+                <span class="tag">Physical Design</span>
+                <span class="tag">Social Network Analysis & Practice</span>
+                <span class="tag">Emerging Storage Devices & Systems</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- NTU -->
+        <div class="card education-card">
+          <div class="card-header">
+            <div>
+              <h3 class="card-title">National Taiwan University</h3>
+              <p class="card-subtitle">Bachelor of Science in Nursing</p>
+            </div>
+            <div class="card-date">Sept 2015 – June 2019</div>
+          </div>
+          <div class="gpa-pill">GPA: <strong>3.78</strong> / 4.30</div>
+          <p class="edu-note">Built strong foundation in rigorous analytical methodology, scientific research protocols, and precision data governance.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="section-header">
+        <h2 class="section-title">Technical Projects</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <!-- Category Filter Tabs (Demonstrating JavaScript Interactivity) -->
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="eda">EDA & Physical Design (C++)</button>
+        <button class="filter-btn" data-filter="ml">Machine Learning & Graph (Python)</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="card project-card" data-category="eda">
+          <div class="project-top">
+            <span class="project-tag eda">EDA / Physical Design</span>
+            <span class="project-date">May 2026</span>
+          </div>
+          <h3 class="project-title">Analytical Global Placement</h3>
+          <p class="tech-stack"><code>C++</code></p>
+          <ul class="project-highlights">
+            <li>Designed an analytical global placer using an object-oriented inheritance architecture to decouple database management, objective function values, and gradient computation.</li>
+            <li>Implemented the <strong>Weighted Average (WA)</strong> wirelength model with forward/backward pass caching and a bin-based force-directed density penalty smoothed via a 3 × 3 grid landscape.</li>
+            <li>Introduced dynamic gamma decay schedule and shrinking target density mechanism to mitigate gradient explosion, achieving a <strong>15% reduction in final HPWL</strong> and early convergence.</li>
+          </ul>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="card project-card" data-category="ml">
+          <div class="project-top">
+            <span class="project-tag ml">Graph & Network</span>
+            <span class="project-date">May 2026</span>
+          </div>
+          <h3 class="project-title">Community Detection via Consensus Clustering</h3>
+          <p class="tech-stack"><code>Python</code> • <code>igraph</code></p>
+          <ul class="project-highlights">
+            <li>Developed an ensemble community detection pipeline utilizing the <strong>Leiden algorithm</strong> on a large-scale social network of <strong>188k nodes and 398k edges</strong>.</li>
+            <li>Maximized network modularity scores and resolved disconnected component errors commonly found in baseline Louvain methods.</li>
+            <li>Executed a consensus clustering scheme with 10 independent randomized iterations and a majority vote strategy to increase classification robustness.</li>
+          </ul>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="card project-card" data-category="eda">
+          <div class="project-top">
+            <span class="project-tag eda">EDA / Physical Design</span>
+            <span class="project-date">Apr 2026</span>
+          </div>
+          <h3 class="project-title">Fixed-Outline Floorplanner</h3>
+          <p class="tech-stack"><code>C++</code> • <code>Simulated Annealing</code></p>
+          <ul class="project-highlights">
+            <li>Developed a fixed-outline floorplanner combining a <strong>B*-Tree</strong> topological layout representation with a Simulated Annealing (SA) optimization engine.</li>
+            <li>Created an <strong>O(1) memory swap mechanism</strong> for active contour structures and cached static terminal bounding boxes, eliminating hundreds of millions of heap allocations.</li>
+            <li>Designed an adaptive penalty mechanism using out-of-bounds metrics and aspect ratio guiding alongside problem-size iteration scaling to ensure full constraint compliance.</li>
+          </ul>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="card project-card" data-category="ml">
+          <div class="project-top">
+            <span class="project-tag ml">Machine Learning</span>
+            <span class="project-date">Apr 2026</span>
+          </div>
+          <h3 class="project-title">Social Network Link Prediction</h3>
+          <p class="tech-stack"><code>Python</code> • <code>XGBoost</code> • <code>NetworkX</code> • <code>Node2Vec</code></p>
+          <ul class="project-highlights">
+            <li>Built a directed link prediction machine learning pipeline deploying a Dynamic Sub-graph Ensemble Strategy across 30 randomized XGBoost classifiers.</li>
+            <li>Extracted 45-dimensional feature vectors blending topological heuristics with 64-dimensional Node2Vec latent embeddings.</li>
+            <li>Implemented sub-graph splitting for target leakage prevention and handled severe class imbalance via hard negative sampling, achieving <strong>Kaggle Public Score of 0.89336</strong>.</li>
+          </ul>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="card project-card" data-category="eda">
+          <div class="project-top">
+            <span class="project-tag eda">Circuit Optimization</span>
+            <span class="project-date">Mar 2026</span>
+          </div>
+          <h3 class="project-title">2-Way F-M Circuit Partitioning</h3>
+          <p class="tech-stack"><code>C++</code> • <code>Algorithms</code></p>
+          <ul class="project-highlights">
+            <li>Implemented the Fiduccia-Mattheyses (F-M) heuristic using a custom <strong>O(1) doubly linked bucket list array</strong> and flat indexing mapping to scale up to <strong>400,000 cells</strong>.</li>
+            <li>Integrated Breadth-First Search (BFS) graph initialization and a Recursive Multilevel Partitioning framework.</li>
+            <li>Leveraged Modified Heavy-Edge Matching (MHEM) with pin-count inverse-proportional weighting, <strong>slashing execution time by 2.5×</strong> and minimizing cut size.</li>
+          </ul>
+        </article>
+
+        <!-- Project 6 -->
+        <article class="card project-card" data-category="eda">
+          <div class="project-top">
+            <span class="project-tag eda">Hardware Scheduling</span>
+            <span class="project-date">Nov 2025</span>
+          </div>
+          <h3 class="project-title">Resource-Constrained Scheduling</h3>
+          <p class="tech-stack"><code>C++</code> • <code>Gurobi Optimizer</code> • <code>ILP</code></p>
+          <ul class="project-highlights">
+            <li>Implemented List Scheduling and Integer Linear Programming (ILP) models to minimize latency under strict hardware resource constraints.</li>
+            <li>Leveraged Gurobi Optimizer to solve complex mathematical formulations, achieving exact scheduling optimization.</li>
+            <li>Analyzed and verified solver performance against standard BLIF benchmarks across different circuit sizes.</li>
+          </ul>
+        </article>
+
+        <!-- Project 7 -->
+        <article class="card project-card" data-category="ml">
+          <div class="project-top">
+            <span class="project-tag ml">Data Mining</span>
+            <span class="project-date">Oct 2025</span>
+          </div>
+          <h3 class="project-title">K-means Clustering & Tree-based Classification</h3>
+          <p class="tech-stack"><code>Python</code> • <code>Scikit-Learn</code></p>
+          <ul class="project-highlights">
+            <li>Analyzed high-dimensional datasets using K-means clustering to extract structural and group-based components.</li>
+            <li>Developed tree-based multi-class classification models optimized for predictive accuracy and computational efficiency.</li>
+            <li>Applied advanced feature engineering and hyperparameter tuning to prevent model overfitting.</li>
+          </ul>
+        </article>
+
+        <!-- Project 8 -->
+        <article class="card project-card" data-category="eda">
+          <div class="project-top">
+            <span class="project-tag eda">Physical Design</span>
+            <span class="project-date">Oct 2025</span>
+          </div>
+          <h3 class="project-title">Standard Cell Placement Legalization</h3>
+          <p class="tech-stack"><code>C++</code></p>
+          <ul class="project-highlights">
+            <li>Implemented a standard cell placement legalizer based on the diffusion equation to simulate smooth cell migration.</li>
+            <li>Preserved the global placement physical landscape while achieving zero cell overlap across row-based layout structures.</li>
+            <li>Developed macro-cell handling and row-bounded refinement techniques to minimize total displacement during detailed placement.</li>
+          </ul>
+        </article>
+
+        <!-- Project 9 -->
+        <article class="card project-card" data-category="eda">
+          <div class="project-top">
+            <span class="project-tag eda">Clock Tree Synthesis</span>
+            <span class="project-date">Sept 2025</span>
+          </div>
+          <h3 class="project-title">Clock Buffer Insertion</h3>
+          <p class="tech-stack"><code>C++</code></p>
+          <ul class="project-highlights">
+            <li>Implemented the <strong>Deferred Merge Embedding (DME)</strong> algorithm to construct a zero-skew clock tree topology.</li>
+            <li>Integrated adaptive buffer insertion logic based on wirelength and fanout constraints to maintain optimal signal integrity.</li>
+            <li>Optimized transient response and minimized clock delay variations across multi-level clock distribution networks.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="section-header">
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="timeline">
+        <!-- Job 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content card">
+            <div class="card-header">
+              <div>
+                <h3 class="card-title">Clinical Research Associate</h3>
+                <p class="card-subtitle">Formosa Biomedical Technology Corp.</p>
+              </div>
+              <div class="card-date">Jan 2022 – Mar 2024</div>
+            </div>
+            <ul class="job-list">
+              <li>Monitored clinical trial protocols and data collection workflows in strict compliance with GCP guidelines, ensuring rigorous data governance.</li>
+              <li>Managed essential trial documentation and tracked cross-functional operational metrics to maintain data integrity across multi-center studies.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content card">
+            <div class="card-header">
+              <div>
+                <h3 class="card-title">Medical Device Sales Representative</h3>
+                <p class="card-subtitle">MedFirst Healthcare Services</p>
+              </div>
+              <div class="card-date">Nov 2019 – Mar 2021</div>
+            </div>
+            <ul class="job-list">
+              <li>Liaised with manufacturers and established robust communication channels with hospital wards and nursing stations to coordinate device logistics.</li>
+              <li>Managed storefront warehouse inventory and tracked retail operations.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Job 3 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content card">
+            <div class="card-header">
+              <div>
+                <h3 class="card-title">Research Assistant</h3>
+                <p class="card-subtitle">National Taiwan University College of Medicine</p>
+              </div>
+              <div class="card-date">Sep 2017 – Jul 2019</div>
+            </div>
+            <ul class="job-list">
+              <li>Performed data collection, multi-source database preprocessing, and statistical analysis for core clinical research metrics.</li>
+              <li>Structured clinical subject tracking records and handled large-scale enrollment data while maintaining high standards of data integrity.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="section-header">
+        <h2 class="section-title">Skills & Certifications</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="skills-grid">
+        <div class="card skill-card">
+          <h3 class="skill-category">Programming Languages</h3>
+          <div class="tags-container">
+            <span class="tag-tech">C / C++</span>
+            <span class="tag-tech">Python</span>
+          </div>
+        </div>
+
+        <div class="card skill-card">
+          <h3 class="skill-category">EDA & Systems Algorithms</h3>
+          <div class="tags-container">
+            <span class="tag-tech">VLSI Placement & Routing</span>
+            <span class="tag-tech">Floorplanning (B*-Tree, SA)</span>
+            <span class="tag-tech">Circuit Partitioning (F-M)</span>
+            <span class="tag-tech">Clock Tree Synthesis (DME)</span>
+          </div>
+        </div>
+
+        <div class="card skill-card">
+          <h3 class="skill-category">Tools, Libraries & Optimization</h3>
+          <div class="tags-container">
+            <span class="tag-tech">Gurobi Optimizer</span>
+            <span class="tag-tech">XGBoost</span>
+            <span class="tag-tech">NetworkX</span>
+            <span class="tag-tech">Node2Vec</span>
+            <span class="tag-tech">igraph</span>
+            <span class="tag-tech">Git & GitHub</span>
+            <span class="tag-tech">Linux (Ubuntu)</span>
+          </div>
+        </div>
+
+        <div class="card skill-card">
+          <h3 class="skill-category">Licenses & Credentials</h3>
+          <div class="tags-container">
+            <span class="tag-license">Registered Nurse (Taiwan)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Ching-Yu Yang. Built with pure HTML, CSS, and JavaScript.</p>
+      <p class="footer-sub">Designed for local exploration & deployment to GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
