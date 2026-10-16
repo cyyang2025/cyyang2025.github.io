@@ -1,10 +1,7 @@
 /**
- * script.js - 網站互動邏輯
- * 
- * 體現前輩指出的概念：「JavaScript 負責處理與網站互動的邏輯」
- * 包含：
- * 1. 深色 / 淺色模式切換 (DOM 操作 + localStorage 本地快取)
- * 2. 專案類別即時篩選 (事件監聽 Event Listener + 樣式條件切換)
+ * Main application script
+ * - Theme toggle (Dark / Light mode with localStorage persistence)
+ * - Dynamic project category filtering
  */
 
 document.addEventListener('DOMContentLoaded', () => {
