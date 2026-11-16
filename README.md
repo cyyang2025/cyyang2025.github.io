@@ -2,7 +2,7 @@
 
 A responsive, high-performance personal portfolio website highlighting projects in **Electronic Design Automation (EDA)**, **VLSI Physical Design Optimization**, and **Machine Learning**.
 
-🌐 **Live Website:** [https://cyyang2025.github.io](https://cyyang2025.github.io)
+🌐 **Live Website:** [https://resume.chingyuyang.com](https://resume.chingyuyang.com)
 
 ---
 
